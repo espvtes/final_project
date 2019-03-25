@@ -6,6 +6,9 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Login } from "./views/login.jsx";
+import { Overview } from "./views/overview.jsx";
+import { Match } from "./views/match.jsx";
+import { Sign_up } from "./views/sign_up.jsx";
 
 import Store from "./store/appContext.jsx";
 
@@ -22,8 +25,12 @@ export class Layout extends React.Component {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/demo" component={Demo} />
+						<Route path="/overview" component={Overview} />
+						<Route path="/matches" component={Match} />
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/login" component={Login} />
+						<Route path="/match" component={Match} />
+						<Route path="/sign_up" component={Sign_up} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
