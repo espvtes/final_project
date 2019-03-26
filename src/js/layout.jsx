@@ -6,6 +6,8 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Login } from "./views/login.jsx";
+import { Sign_up } from "./views/sign_up.jsx";
+import { Match } from "./views/match.jsx";
 
 import Store from "./store/appContext.jsx";
 
@@ -20,10 +22,12 @@ export class Layout extends React.Component {
 				<ScrollToTop>
 					<Navbar />
 					<Switch>
-						<Route exact path="/" component={Home} />
+						<Route exact path="/home" component={Home} />
 						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/login" component={Login} />
+						<Route path="/sign_up" component={Sign_up} />
+						<Route path="/match" component={Match} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
