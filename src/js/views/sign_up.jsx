@@ -14,7 +14,7 @@ export class Sign_up extends React.Component {
 						Last Name:
 						<input type="text" name="name" />
 					</label>
-					
+
 					<input type="submit" value="Submit" />
 				</form>
 			</div>
