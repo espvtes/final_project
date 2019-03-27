@@ -1,3 +1,83 @@
 /* 
     General Styles
 */
+/*login form*/
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    /*background-color: #aad2e2;*/
+    border-radius: 5px;
+
+}
+
+.email{
+    font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+}
+
+.password{
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.login{
+    /*background-color: #5a8799;*/
+}
+
+.card1{
+    background-image: url(https://i5.walmartimages.ca/images/Large/335/387/999999-047875335387.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.card2{
+    background-image: url(https://images.g2a.com/newlayout/323x433/1x1x0/2aae21e354ae/5bb49ed3ae653a98e1262518);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image: url(https://66.media.tumblr.com/48a8ef86e8e50c9f4928aebd90636142/tumblr_p37f752EO31r31jjho1_400.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.card4{
+    background-image: url(https://www.digitalpublications-mlb.com/157005/157249/186082/braves-2019-media-guide/files/pages/tablet/1.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.card5{
+    background-image: url(https://www.barbillarbulebu.com/wp-content/uploads/2016/08/Billares-home6.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.name{
+    float: bottom;
+}
+
+
+

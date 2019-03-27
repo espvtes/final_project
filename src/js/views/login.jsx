@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Context } from "../store/appContext.jsx";
+import "../../styles/index.css";
 
 import "../../styles/index.css";
 
@@ -64,6 +64,12 @@ export class Login extends React.Component {
 						type="submit">
 						Login
 					</button>
+					<a
+						className="btn btn-lg px-5 btn-outline-success btn-block"
+						href="/sign_up"
+						role="button">
+						Sign up
+					</a>
 					<p className="mt-5 mb-3 text-center text-muted">
 						© 2017-2019
 					</p>
