@@ -15,6 +15,7 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container">
+				<h1>It will be worth the wait!!!!</h1>
 				<Carousel />
 			</div>
 		);

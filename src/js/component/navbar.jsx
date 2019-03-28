@@ -6,7 +6,7 @@ export class Navbar extends React.Component {
 		return (
 			<nav className="navbar navbar-light bg-light mb-3">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">Square Up</span>
+					<span className="navbar-brand mb-0 h1 ">Square Up</span>
 				</Link>
 				<div className="mr-auto">
 					<Link className="ml-3" to="/overview">
