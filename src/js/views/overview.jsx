@@ -1,4 +1,7 @@
 import React from "react";
+import Cashout from "../../images/cashout.png";
+import Controller from "../../images/controller.jpg";
+import Typing from "../../images/typing.jpg";
 
 export class Overview extends React.Component {
 	render() {
@@ -8,7 +11,7 @@ export class Overview extends React.Component {
 					<div className="col-3 card-text ml-5">
 						<img
 							className="card-img-top"
-							src="http://placehold.it/150x150"
+							src={Typing}
 							alt="Card image cap"
 						/>
 						<div className="card-body">
@@ -25,7 +28,7 @@ export class Overview extends React.Component {
 					<div className="col-3 card-text ml-5">
 						<img
 							className="card-img-top"
-							src="http://placehold.it/150x150"
+							src={Controller}
 							alt="Card image cap"
 						/>
 						<div className="card-body">
@@ -42,7 +45,7 @@ export class Overview extends React.Component {
 					<div className="col-3 card-text ml-5">
 						<img
 							className="card-img-top"
-							src="http://placehold.it/150x150"
+							src={Cashout}
 							alt="Card image cap"
 						/>
 						<div className="card-body">
