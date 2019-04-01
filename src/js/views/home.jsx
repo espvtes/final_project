@@ -8,6 +8,7 @@ import { Match } from "../views/match.jsx";
 import { Profile } from "../views/profile.jsx";
 
 import { Jumbotron } from "../component/jumbotron.jsx";
+import { Popular } from "../component/popular.jsx";
 
 import { Context } from "../store/appContext.jsx";
 
@@ -16,6 +17,7 @@ export class Home extends React.Component {
 		return (
 			<div className="container-fluid">
 				<Jumbotron />
+				<Popular />
 			</div>
 		);
 	}
