@@ -3,13 +3,14 @@ import React from "react";
 export class Jumbotron extends React.Component {
 	render() {
 		return (
-			<div className="jumbotron  jumbotron-fluid ">
-				<h1 className="display-3">A Warm Welcome!</h1>
+			<div className="jumbotron  jumbotron-fluid  text-center">
+				<h1 className="display-9">Got good game? Prove it.</h1>
+				<h1 className="display-3">
+					<b>Square Up</b>
+				</h1>
 				<p className="lead">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt
-					odit vero aliquid similique quaerat nam nobis illo
-					aspernatur vitae fugiat numquam repellat.
+					Where gamers compete for bragging rights and digital
+					currency.
 				</p>
 				<p className="lead">
 					<a
