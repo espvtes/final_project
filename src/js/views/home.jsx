@@ -9,6 +9,7 @@ import { Profile } from "../views/profile.jsx";
 
 import { Jumbotron } from "../component/jumbotron.jsx";
 import { Popular } from "../component/popular.jsx";
+import { Table } from "../component/table.jsx";
 
 import { Context } from "../store/appContext.jsx";
 
@@ -18,6 +19,7 @@ export class Home extends React.Component {
 			<div className="container-fluid">
 				<Jumbotron />
 				<Popular />
+				<Table />
 			</div>
 		);
 	}

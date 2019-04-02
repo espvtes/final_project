@@ -9,7 +9,7 @@ import { Login } from "./views/login.jsx";
 import { Overview } from "./views/overview.jsx";
 import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
-import { Popular } from "./views/sign_up.jsx";
+
 import { Profile } from "./views/profile.jsx";
 
 import Store from "./store/appContext.jsx";
@@ -34,7 +34,7 @@ export class Layout extends React.Component {
 						<Route path="/profile" component={Profile} />
 						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
-						<Route path="/login" component={Popular} />
+
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
