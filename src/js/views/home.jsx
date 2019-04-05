@@ -16,7 +16,7 @@ import { Context } from "../store/appContext.jsx";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid">
+			<div className="container-fluid" id="content">
 				<Jumbotron />
 				<Popular />
 				<Table />
