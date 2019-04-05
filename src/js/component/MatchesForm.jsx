@@ -3,10 +3,14 @@ import { Link } from "react-router-dom";
 import "../../styles/index.css";
 
 export class MatchesForm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
 	render() {
 		return (
-			<div className="matches">
-				<div className="card-deck px-4">
+			<div className="matches py-4">
+				<div className="card-deck text-white px-4">
 					<div className="card">
 						<div className="image">
 							<img
@@ -16,11 +20,11 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>FIFA</label>
+							<label>Fifa</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="fifa"
 										value="submit">
@@ -43,7 +47,7 @@ export class MatchesForm extends React.Component {
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="call of duty"
 										value="submit">
@@ -62,11 +66,11 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>BASEBALL</label>
+							<label>Baseball</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="doom"
 										value="submit">
@@ -85,11 +89,11 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>BASKETBALL</label>
+							<label>Basketball</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="doom"
 										value="submit">
@@ -100,7 +104,8 @@ export class MatchesForm extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="card-deck pt-4 px-4">
+
+				<div className="card-deck text-white pt-4 px-4">
 					<div className="card">
 						<div className="image">
 							<img
@@ -110,11 +115,11 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>STARCARFT</label>
+							<label>Starcraft</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="starcraft"
 										value="submit">
@@ -137,7 +142,7 @@ export class MatchesForm extends React.Component {
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="doom"
 										value="submit">
@@ -156,11 +161,11 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>BILLIARDS</label>
+							<label>Billiards</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="doom"
 										value="submit">
@@ -179,13 +184,108 @@ export class MatchesForm extends React.Component {
 							/>
 						</div>
 						<div className="card-body">
-							<label>POKER</label>
+							<label>Poker</label>
 							<div className="button">
 								<Link className="create" to="/matchCreate">
 									<button
-										className="btn btn-success"
+										className="btn btn-outline-dark"
 										type="submit"
 										name="doom"
+										value="submit">
+										Join lounge!!!
+									</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="card-deck text-white pt-4 px-4">
+					<div className="card">
+						<div className="image">
+							<img
+								src="http://www.absfly.com/wp-content/uploads/2017/10/20151023204134-poker-game-gambling-gamble-cards-money-chips-game-1024x683.jpeg"
+								className="card-img-top"
+								alt="..."
+							/>
+						</div>
+						<div className="card-body">
+							<label>Rummy</label>
+							<div className="button">
+								<Link className="create" to="/matchCreate">
+									<button
+										className="btn btn-outline-dark"
+										type="submit"
+										name="Pub6"
+										value="submit">
+										Join lounge!!!
+									</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+					<div className="card">
+						<div className="image">
+							<img
+								src="https://www.bbva.com/wp-content/uploads/2019/02/fornite-apertura-bbva-1024x683.jpg"
+								className="card-img-top"
+								alt="..."
+							/>
+						</div>
+						<div className="card-body">
+							<label>Fortnite</label>
+							<div className="button">
+								<Link className="create" to="/matchCreate">
+									<button
+										className="btn btn-outline-dark"
+										type="submit"
+										name="Fortnite"
+										value="submit">
+										Join lounge!!!
+									</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+					<div className="card">
+						<div className="image">
+							<img
+								src="https://epiloguegaming.com/wp-content/uploads/2019/03/APEX_LEGENDS_backDrop-1024x683.jpg"
+								className="card-img-top"
+								alt="..."
+							/>
+						</div>
+						<div className="card-body">
+							<label>Apex legends</label>
+							<div className="button">
+								<Link className="create" to="/matchCreate">
+									<button
+										className="btn btn-outline-dark"
+										type="submit"
+										name="Apex legends"
+										value="submit">
+										Join lounge!!!
+									</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+					<div className="card">
+						<div className="image">
+							<img
+								src="https://joinhomebase.com/wp-content/uploads/2016/08/bowling-pins-1024x683.jpg"
+								className="card-img-top"
+								alt="..."
+							/>
+						</div>
+						<div className="card-body">
+							<label>Bowling</label>
+							<div className="button">
+								<Link className="create" to="/matchCreate">
+									<button
+										className="btn btn-outline-dark "
+										type="submit"
+										name="Super Smash"
 										value="submit">
 										Join lounge!!!
 									</button>

@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Context } from "../store/appContext.jsx";
 import { Link } from "react-router-dom";
 import "../../styles/index.css";
 
@@ -20,7 +19,9 @@ export class CreateMatch extends React.Component {
 			<div className="container" id="fondo">
 				<div className="row pt-4">
 					<div className="col-sm-2" />
-					<div className="col-sm-8 shadow-lg p-3 mb-5 bg-light rounded">
+					<div
+						className="col-sm-8 shadow p-3 mb-5 rounded"
+						id="create">
 						<h1>Create a match</h1>
 						<hr />
 						<br />

@@ -36,11 +36,8 @@ export class Layout extends React.Component {
 						<Route path="/profile" component={Profile} />
 						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
-<<<<<<< HEAD
 						<Route path="/matchCreate" component={MatchCreate} />
 						<Route path="/displayed" component={Displayed} />
-=======
->>>>>>> 34592d1a8b368396138805d2b2e3be64a4e5a7f7
 
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
