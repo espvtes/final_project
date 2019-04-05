@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../../styles/index.css";
+import { Context } from "../store/appContext.jsx";
 
 import "../../styles/index.css";
 
@@ -36,7 +36,7 @@ export class Login extends React.Component {
 						className="email"
 						placeholder="Email address"
 						value={this.state.email}
-						required=""
+						required
 						autoFocus=""
 					/>
 					<label htmlFor="inputPassword" className="sr-only">
@@ -51,7 +51,7 @@ export class Login extends React.Component {
 						className="password"
 						value={this.state.password}
 						placeholder="Password"
-						required=""
+						required
 					/>
 					<div className="checkbox mb-3 py-4 text-dark text-center">
 						<label>
@@ -59,6 +59,25 @@ export class Login extends React.Component {
 							Remember me
 						</label>
 					</div>
+<<<<<<< HEAD
+					<Context.Consumer>
+						{({ store, actions }) => {
+							return (
+								<button
+									className="btn btn-lg px-5 btn-outline-success btn-block"
+									type="submit"
+									onClick={() =>
+										actions.loginForm(
+											this.state.email,
+											this.state.password
+										)
+									}>
+									Login
+								</button>
+							);
+						}}
+					</Context.Consumer>
+=======
 					<button
 						className="btn btn-lg px-5 btn-outline-success btn-block"
 						type="submit">
@@ -70,6 +89,7 @@ export class Login extends React.Component {
 						role="button">
 						Sign up
 					</a>
+>>>>>>> 34592d1a8b368396138805d2b2e3be64a4e5a7f7
 					<p className="mt-5 mb-3 text-center text-muted">
 						© 2017-2019
 					</p>
