@@ -15,6 +15,7 @@ const getState = ({ getStore, setStore }) => {
 			],
 
 			days: [
+				"Day",
 				1,
 				2,
 				3,
@@ -49,6 +50,7 @@ const getState = ({ getStore, setStore }) => {
 			],
 
 			months: [
+				"Month",
 				"January",
 				"February",
 				"March",
@@ -64,6 +66,7 @@ const getState = ({ getStore, setStore }) => {
 			],
 
 			year: [
+				"Year",
 				2001,
 				2000,
 				1999,
@@ -169,6 +172,37 @@ const getState = ({ getStore, setStore }) => {
 			]
 		},
 		actions: {
+			addUser: (n, l, e, u, p, d, m, y) => {
+				const store = getStore();
+				var user = {
+					first_name: n,
+					last_name: l,
+					email: e,
+					username: u,
+					password: p,
+					days: d,
+					months: m,
+					year: y
+				};
+			},
+
+			login: (u, p) => {
+				const store = getStore();
+				var loginForm = {
+					email: u,
+					password: p
+				};
+			},
+
+			findGame: input => {
+				const store = getStore();
+				const word = store.games.filter(game => {
+					if (game.startWith("input")) {
+						return game;
+					}
+				});
+			},
+
 			changeColor: (index, color) => {
 				//get the store
 				const store = getStore();

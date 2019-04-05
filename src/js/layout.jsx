@@ -9,6 +9,8 @@ import { Login } from "./views/login.jsx";
 import { Overview } from "./views/overview.jsx";
 import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
+import { MatchCreate } from "./views/matchCreate.jsx";
+import { Displayed } from "./views/displayed.jsx";
 
 import Store from "./store/appContext.jsx";
 
@@ -31,6 +33,9 @@ export class Layout extends React.Component {
 						<Route path="/login" component={Login} />
 						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
+						<Route path="/matchCreate" component={MatchCreate} />
+						<Route path="/displayed" component={Displayed} />
+
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
