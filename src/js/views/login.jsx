@@ -59,6 +59,7 @@ export class Login extends React.Component {
 							Remember me
 						</label>
 					</div>
+<<<<<<< HEAD
 					<Context.Consumer>
 						{({ store, actions }) => {
 							return (
@@ -76,6 +77,19 @@ export class Login extends React.Component {
 							);
 						}}
 					</Context.Consumer>
+=======
+					<button
+						className="btn btn-lg px-5 btn-outline-success btn-block"
+						type="submit">
+						Login
+					</button>
+					<a
+						className="btn btn-lg px-5 btn-outline-success btn-block"
+						href="/sign_up"
+						role="button">
+						Sign up
+					</a>
+>>>>>>> 34592d1a8b368396138805d2b2e3be64a4e5a7f7
 					<p className="mt-5 mb-3 text-center text-muted">
 						© 2017-2019
 					</p>

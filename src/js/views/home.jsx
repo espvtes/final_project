@@ -7,15 +7,19 @@ import { Login } from "../views/login.jsx";
 import { Match } from "../views/match.jsx";
 import { Profile } from "../views/profile.jsx";
 
-import { Carousel } from "../component/carousel.jsx";
+import { Jumbotron } from "../component/jumbotron.jsx";
+import { Popular } from "../component/popular.jsx";
+import { Table } from "../component/table.jsx";
 
 import { Context } from "../store/appContext.jsx";
 
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container">
-				<Carousel />
+			<div className="container-fluid">
+				<Jumbotron />
+				<Popular />
+				<Table />
 			</div>
 		);
 	}

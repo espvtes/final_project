@@ -31,6 +31,13 @@ export class SignUpForm extends React.Component {
 							height="150"
 						/>
 						<h2>Sign up</h2>
+						<h3> or</h3>
+						<a
+							className="btn btn-primary"
+							href="/login"
+							role="button">
+							Login
+						</a>
 					</div>
 					<div className="row ">
 						<div className="col-sm-3" />
@@ -250,7 +257,6 @@ export class SignUpForm extends React.Component {
 								</Context.Consumer>
 							</div>
 						</div>
-						<div className="col-sm-3" />
 					</div>
 				</form>
 			</div>
