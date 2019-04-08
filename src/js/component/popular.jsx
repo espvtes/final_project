@@ -146,7 +146,7 @@ export class Popular extends React.Component {
 											type="submit"
 											name="doom"
 											value="submit">
-											Join lounge!!!
+											Play Now
 										</button>
 									</Link>
 								</div>
@@ -283,7 +283,7 @@ export class Popular extends React.Component {
 								<div className="button">
 									<Link className="create" to="/matchCreate">
 										<button
-											className="btn btn-outline-dark "
+											className="btn secondary btn-outline-dark "
 											type="submit"
 											name="Super Smash"
 											value="submit">

@@ -28,7 +28,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="fifa"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -51,7 +51,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="call of duty"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>

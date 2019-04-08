@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar navbar-light bg-light mb-3">
+			<nav className="navbar navbar-light bg-dark mb-3">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1 ">Square Up</span>
+					<span className="navbar-brand .text-info mb-0 h1">
+						Square Up
+					</span>
 				</Link>
 				<div className="mr-auto">
 					<Link className="ml-3" to="/overview">
