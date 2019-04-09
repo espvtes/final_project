@@ -31,11 +31,37 @@
 }
 #content{
     position: relative;
+    background-color: black;
 }
 .footer{
     position: absolute;
     margin: auto;
     width: 100%;
+    background-color: black;
+}
+
+ * {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -20px;
+}
+.jumbotron{
+    background-color: blue;
+}
+.navbar-brand{
+    background-color: #29B0D5;
+}
+body{
+    background-color: black;
 }
 
 
@@ -73,6 +99,7 @@
 #button{
     color:white;
 }
+<<<<<<< HEAD
 
 
 /*login style*/
@@ -131,4 +158,8 @@
 }
 #image{
     width:150px;
+=======
+.whole{
+    background-color: black;
+>>>>>>> 6cab17032c0221acb11ea65b6e5c69c16e029a2c
 }
