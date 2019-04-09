@@ -29,11 +29,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="fifa"
 										value="submit">
-
-										Create a match!!!
-
 										Play Now
-
 									</button>
 								</Link>
 							</div>
@@ -57,11 +53,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="call of duty"
 										value="submit">
-
-										Create a match!!!
-
 										Play Now
-
 									</button>
 								</Link>
 							</div>
@@ -85,7 +77,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="doom"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -109,7 +101,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="doom"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -136,7 +128,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="starcraft"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -160,7 +152,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="doom"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -184,7 +176,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="doom"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -208,7 +200,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="doom"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -235,7 +227,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="Pub6"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -259,7 +251,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="Fortnite"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -283,7 +275,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="Apex legends"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -307,7 +299,7 @@ export class MatchesForm extends React.Component {
 										id="button"
 										name="Super Smash"
 										value="submit">
-										Create a match!!!
+										Play Now
 									</button>
 								</Link>
 							</div>

@@ -31,7 +31,7 @@
 }
 #content{
     position: relative;
-    background-color: black;
+    /*background-color: black;*/
 }
 .footer{
     position: absolute;
@@ -99,7 +99,6 @@ body{
 #button{
     color:white;
 }
-<<<<<<< HEAD
 
 
 /*login style*/
@@ -158,8 +157,7 @@ body{
 }
 #image{
     width:150px;
-=======
-.whole{
-    background-color: black;
->>>>>>> 6cab17032c0221acb11ea65b6e5c69c16e029a2c
 }
+/*.whole{*/
+/*    background-color: black;*/
+/*}*/
