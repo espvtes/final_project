@@ -14,72 +14,77 @@ export class Login extends React.Component {
 	}
 	render() {
 		return (
-			<div className="login">
-				<form className="form-signin text-center">
-					<img
-						className="mb-4"
-						src="http://thinkler.in/images/login-user-icon.png"
-						alt=""
-						width="78"
-						height="78"
-					/>
-					<h1 className="h3 mb-3 text-dark font-weight-normal">
-						Please login
-					</h1>
-					<label htmlFor="inputEmail" className="sr-only">
-						{this.props.email}
-					</label>
-					<input
-						type="email"
-						onChange={e => this.setState({ email: e.target.value })}
-						id="inputEmail"
-						className="email"
-						placeholder="Email address"
-						value={this.state.email}
-						required
-						autoFocus=""
-					/>
-					<label htmlFor="inputPassword" className="sr-only">
-						{this.props.password}
-					</label>
-					<input
-						type="password"
-						onChange={e =>
-							this.setState({ password: e.target.value })
-						}
-						id="inputPassword"
-						className="password"
-						value={this.state.password}
-						placeholder="Password"
-						required
-					/>
-					<div className="checkbox mb-3 py-4 text-dark text-center">
-						<label>
-							<input type="checkbox" value="remember-me" />{" "}
-							Remember me
-						</label>
+			<div className="container-fluid" id="login">
+				<div className="row py-4">
+					<div className="col-sm-4" />
+					<div
+						className="col-sm-4 text-center shadow p-6 mb-6 rounded"
+						id="center">
+						<form className="form-signin" id="ok">
+							<h1 className="h3 mb-3 text-white font-weight-normal">
+								Please sign in
+							</h1>
+							<br />
+							<label htmlFor="inputEmail" className="sr-only">
+								{this.props.email}
+							</label>
+							<input
+								type="email"
+								id="inputEmail"
+								className="form-control form-control-lg"
+								onChange={e =>
+									this.setState({ email: e.target.value })
+								}
+								value={this.state.email}
+								placeholder="Email address"
+								required
+							/>
+							<br />
+							<label htmlFor="inputPassword" className="sr-only">
+								{this.props.password}
+							</label>
+							<input
+								type="password"
+								id="inputPassword"
+								onChange={e =>
+									this.setState({ password: e.target.value })
+								}
+								value={this.state.password}
+								className="form-control form-control-lg"
+								placeholder="Password"
+								required
+							/>
+							<div className="checkbox mb-3 pt-4">
+								<label>
+									<input
+										type="checkbox"
+										value="remember-me"
+									/>{" "}
+									Remember me
+								</label>
+							</div>
+							<Context.Consumer>
+								{({ store, actions }) => {
+									return (
+										<button
+											className="btn btn-lg btn-outline-warning btn-block"
+											type="submit"
+											onClick={() =>
+												actions.loginForm(
+													this.state.email,
+													this.state.password
+												)
+											}>
+											Sign in
+										</button>
+									);
+								}}
+							</Context.Consumer>
+							<p className="mt-5 mb-3">© 2017-2019</p>
+						</form>
 					</div>
-					<Context.Consumer>
-						{({ store, actions }) => {
-							return (
-								<button
-									className="btn btn-lg px-5 btn-outline-success btn-block"
-									type="submit"
-									onClick={() =>
-										actions.loginForm(
-											this.state.email,
-											this.state.password
-										)
-									}>
-									Login
-								</button>
-							);
-						}}
-					</Context.Consumer>
-					<p className="mt-5 mb-3 text-center text-muted">
-						© 2017-2019
-					</p>
-				</form>
+					<div className="col-sm-4" />
+				</div>
 			</div>
 		);
 	}

@@ -25,10 +25,11 @@ export class MatchesForm extends React.Component {
 								<Link className="create" to="/matchCreate">
 									<button
 										className="btn btn-outline-dark"
+										id="button"
 										type="submit"
 										name="fifa"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -49,9 +50,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="call of duty"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -72,9 +74,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -95,9 +98,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -121,9 +125,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="starcraft"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -144,9 +149,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -167,9 +173,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -190,9 +197,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -216,9 +224,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="Pub6"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -239,9 +248,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="Fortnite"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -262,9 +272,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark"
 										type="submit"
+										id="button"
 										name="Apex legends"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
@@ -285,9 +296,10 @@ export class MatchesForm extends React.Component {
 									<button
 										className="btn btn-outline-dark "
 										type="submit"
+										id="button"
 										name="Super Smash"
 										value="submit">
-										Join lounge!!!
+										Create a match!!!
 									</button>
 								</Link>
 							</div>
