@@ -8,31 +8,31 @@ export class Overview extends React.Component {
 		return (
 			<div className="main">
 				<div className="row mx-5">
-					<div className="col-3 card-text ml-5 mt-5">
+					<div className="col-4 card-text ml-5 mt-4 ">
 						<img
 							className="typing"
 							src={Typing}
 							alt="Card image cap"
 						/>
-						<div className="card-body">
+						<div className="card-body mt-5">
 							<h5 className="card-title">Step One</h5>
 							<p className="card-text">
 								<li>Sign up</li>
 								<li>Create profile</li>
 								<li>Link your cryptocurrency wallet</li>
 							</p>
-							<a href="/sign_up" className="btn btn-primary">
+							<a href="/sign_up" className="btn" id="step1">
 								Sign Up
 							</a>
 						</div>
 					</div>
-					<div className="col-3 mx-5">
+					<div className="col-4 ml-4 mt-4">
 						<img
 							className="controller"
 							src={Controller}
 							alt="Card image cap"
 						/>
-						<div className="card-body">
+						<div className="card-body mt-1">
 							<h5 className="card-title">Step Two</h5>
 							<p className="card-text">
 								<li>Choose your console</li>
@@ -41,24 +41,24 @@ export class Overview extends React.Component {
 								<li>Find or wait for an opponent</li>
 								<li>Play</li>
 							</p>
-							<a href="/match" className="btn btn-primary">
+							<a href="/match" className="btn mt-1" id="step2">
 								Choose your game
 							</a>
 						</div>
 					</div>
-					<div className="col-3">
+					<div className="col-3 mr-2 mt-4" id="third">
 						<img
-							className="card-img-top"
+							className="cash"
 							src={Cashout}
 							alt="Card image cap"
 						/>
-						<div className="card-body">
+						<div className="card-body mt-5 mb-3">
 							<h5 className="card-title">Step Three</h5>
 							<p className="card-text">
 								<li>Go to your profile</li>
 								<li>Cash out your winnings</li>
 							</p>
-							<a href="/profile" className="btn btn-primary">
+							<a href="/profile" className="btn mt-4" id="step3">
 								Cash out
 							</a>
 						</div>

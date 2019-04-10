@@ -62,13 +62,84 @@ html, body {
     margin: 0 auto -20px;
 }
 .jumbotron{
-    background-color: blue;
+    background-image: url(../images/fight1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
+    color: #32EA19;
 }
-.navbar-brand{
-    background-color: #29B0D5;
+#imageDiv {
+  width: 100%;
+}
+ 
+#imageDiv img {
+  max-width: 98%;
+}
+#homebtn {
+    background-color: #470A6A;
+}
+#compete {
+    color: #FFF828;
+}
+
+.navbar .navbar-brand{
+    color:  #FFF828;
+    background-color: black;
+}
+
+#popgame {
+    color: #FFF828;
+}
+#firsttab {
+    color: #FFF828;
+}
+.bg-dark {
+    background-color: black !important;
+}
+.btn-dark {
+    color: #32EA19 !important;
 }
 body{
     background-color: black;
+}
+.main, #profpage {
+    background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #FFF828;
+    }
+.cash{
+    width:200px;
+    height:200px;
+}
+.controller {
+    width:200px;
+    height:200px;
+}
+.typing {
+    width:225px;
+    height:200px;
+}
+#step1, #step2, #step3  {
+    background-color: #470A6A;
+  
+}
+#nav1, #nav2, #nav3, #nav4{
+    background-color: #470A6A;
+ 
+}
+.navbar .navbar-nav li a:hover {
+    background-color: black;
+}
+.tr a
+
+.btn-dark {
+    color: #fff;
+    background-color: black;
+    border-color: black;
 }
 
 .match{
@@ -122,12 +193,12 @@ body{
 }
 
 .btn:hover{
-    background-color: green;
+    background-color: yellow;
 }
 
 .btn{
     color:white;
+    background-color:#470A6A;
 }
-.whole{
-    background-color: black;
-}
+
+                          

@@ -74,7 +74,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -97,7 +97,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -123,7 +123,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="starcraft"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -146,7 +146,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -169,7 +169,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -192,7 +192,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="doom"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -218,7 +218,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="Pub6"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -241,7 +241,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="Fortnite"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -264,7 +264,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="Apex legends"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
@@ -287,7 +287,7 @@ export class MatchesForm extends React.Component {
 										type="submit"
 										name="Super Smash"
 										value="submit">
-										Join lounge!!!
+										Play Now
 									</button>
 								</Link>
 							</div>
