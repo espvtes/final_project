@@ -32,7 +32,7 @@ export class Score extends React.Component {
 								<div className="button pt-4 text-center">
 									<button
 										type="submit"
-										className="btn btn-success btn btn-sm">
+										className="btn btn-info btn btn-sm">
 										Enter
 									</button>
 								</div>
@@ -75,7 +75,7 @@ export class Score extends React.Component {
 						</div>
 
 						<div className="subScore text-center pt-4">
-							<button className=" btn btn-success" type="button">
+							<button className=" btn btn-info" type="button">
 								Submit score
 							</button>
 						</div>

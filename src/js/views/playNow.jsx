@@ -35,7 +35,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
@@ -50,7 +50,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
@@ -65,7 +65,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
@@ -80,7 +80,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
@@ -95,7 +95,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
@@ -110,7 +110,7 @@ export class PlayNow extends React.Component {
 										<Link className="join" to="/score">
 											<button
 												type="submit"
-												className="btn btn-info border border-dark">
+												className="btn btn-warning border border-dark">
 												Join the match
 											</button>
 										</Link>
