@@ -8,7 +8,7 @@ export class Popular extends React.Component {
 			<div className="text-center container" id="popgame">
 				<h2>Popular Games</h2>
 				<div className="card-deck text-white px-4">
-					<div className="row matches py-4">
+					<div className="row matches py-4 rounded">
 						<div className="row">
 							<div className="col">
 								<div className="card-deck text-white pt-4 px-4">

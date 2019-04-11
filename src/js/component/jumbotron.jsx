@@ -1,10 +1,11 @@
 import React from "react";
 import Fight1 from "../../images/fight1.gif";
+import { Link } from "react-router-dom";
 
 export class Jumbotron extends React.Component {
 	render() {
 		return (
-			<div className="jumbotron  jumbotron-fluid  text-center image-responsive">
+			<div className="jumbotron  jumbotron-fluid  text-center image-responsive shadow rounded">
 				<h1 className="display-9">Got good game? Prove it.</h1>
 				<h1 className="display-3">
 					<b>Square Up</b>
@@ -16,7 +17,7 @@ export class Jumbotron extends React.Component {
 					<a
 						className="btn btn-lg"
 						id="homebtn"
-						href="/matchCreate"
+						href="/challenge"
 						role="button">
 						Matchup
 					</a>
