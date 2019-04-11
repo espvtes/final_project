@@ -7,7 +7,6 @@ import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Login } from "./views/login.jsx";
 import { Overview } from "./views/overview.jsx";
-import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
 import { MatchCreate } from "./views/matchCreate.jsx";
 
@@ -37,7 +36,6 @@ export class Layout extends React.Component {
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/login" component={Login} />
 						<Route path="/profile" component={Profile} />
-						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
 						<Route path="/matchCreate" component={MatchCreate} />
 
