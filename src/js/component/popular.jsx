@@ -20,7 +20,7 @@ export class Popular extends React.Component {
 								/>
 							</div>
 							<div className="card-body text-center">
-								<label>Fifa</label>
+								<label>FIFA</label>
 								<div className="button">
 									<Link className="create" to="/matchCreate">
 										<button
@@ -71,6 +71,8 @@ export class Popular extends React.Component {
 								<div className="button">
 									<Link className="create" to="/matchCreate">
 										<button
+											data-toggle="modal"
+											data-target="#exampleModalLong"
 											className="btn btn-outline-dark"
 											type="submit"
 											name="call of duty"

@@ -6,7 +6,7 @@ import Typing from "../../images/typing.jpg";
 export class Overview extends React.Component {
 	render() {
 		return (
-			<div className="main">
+			<div className="main" id="overview">
 				<div className="row mx-5">
 					<div className="col-4 card-text ml-5 mt-4 ">
 						<img
@@ -14,12 +14,12 @@ export class Overview extends React.Component {
 							src={Typing}
 							alt="Card image cap"
 						/>
-						<div className="card-body mt-5">
+						<div className="card-body mt-5 steps" id="s3">
 							<h5 className="card-title">Step One</h5>
 							<p className="card-text">
 								<li>Sign up</li>
 								<li>Create profile</li>
-								<li>Link your cryptocurrency wallet</li>
+								<li>Link your Paypal account</li>
 							</p>
 							<a href="/sign_up" className="btn" id="step1">
 								Sign Up
@@ -32,7 +32,7 @@ export class Overview extends React.Component {
 							src={Controller}
 							alt="Card image cap"
 						/>
-						<div className="card-body mt-1">
+						<div className="card-body mt-1 steps" id="s2">
 							<h5 className="card-title">Step Two</h5>
 							<p className="card-text">
 								<li>Choose your console</li>
@@ -52,7 +52,7 @@ export class Overview extends React.Component {
 							src={Cashout}
 							alt="Card image cap"
 						/>
-						<div className="card-body mt-5 mb-3">
+						<div className="card-body mt-5 mb-3 steps" id="s3">
 							<h5 className="card-title">Step Three</h5>
 							<p className="card-text">
 								<li>Go to your profile</li>

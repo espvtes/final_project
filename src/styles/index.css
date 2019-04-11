@@ -2,34 +2,27 @@
     General Styles
 */
 /*login form*/
-.form-signin{
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    border-radius: 5px;
 
-}
 
-.email{
-    font-size: 16px;
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-}
+/*.email{*/
+/*    font-size: 18px;*/
+/*    position: relative;*/
+/*    box-sizing: border-box;*/
+/*    height: auto;*/
+/*    padding: 10px;*/
+/*}*/
 
-.password{
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
-}
+/*.password{*/
+/*    position: relative;*/
+/*    box-sizing: border-box;*/
+/*    height: auto;*/
+/*    padding: 10px;*/
+/*    font-size: 18px;*/
+/*}*/
 
-.name{
-    float: bottom;
-}
+/*.name{*/
+/*    float: bottom;*/
+/*}*/
 
 
 #profpic{
@@ -38,7 +31,7 @@
 }
 #content{
     position: relative;
-    background-color: black;
+    /*background-color: black;*/
 }
 .footer{
     position: absolute;
@@ -102,7 +95,7 @@ html, body {
 body{
     background-color: black;
 }
-.main, #profpage {
+.main, #profpage, #joined{
     background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
     height: 100%;
     background-position: center;
@@ -111,6 +104,9 @@ body{
     position: relative;
     color: #FFF828;
     }
+#psn, #s1, #s2, #s3 {
+     color: #FFF828;
+}    
 .cash{
     width:200px;
     height:200px;
@@ -131,40 +127,8 @@ body{
     background-color: #470A6A;
  
 }
-.navbar .navbar-nav li a:hover {
-    background-color: black;
-}
-.tr a
 
-.btn-dark {
-    color: #fff;
-    background-color: black;
-    border-color: black;
-}
-
-.match{
-    margin: 0;
-    
-}
-.containerMatch{
-    width: 100%;
-}
-
-#signup{
-    cursor: pointer;
-}
-
-.modal-header{
-    color: black;
-    width: 100%;
-    text-align: center;
-}
-
-.fas{
-    color:black;
-}
-
-
+/*matchForm*/
 #body-form{
     background-color: #d9d9d9;
 }
@@ -175,30 +139,85 @@ body{
 
 
 .matches{
-    background-color:#3D6480;
+    background-color:#2F5F83;
 }
 
 .card{
     background-color: #0C2435;
+    /*background: none !important;*/
 }
 .change{
     color:black;
 }
-/*#create{*/
-/*    background-color:#A9B2B8;*/
-/*}*/
 
 .title{
     width:100%;
 }
 
+
 .btn:hover{
     background-color: yellow;
 }
 
-.btn{
-    color:white;
-    background-color:#470A6A;
+.btn {
+    color: white;
+    background-color: #470A6A;
 }
 
-                          
+/*login style*/
+#login{
+    background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        
+
+}
+
+.checkbox, h3{
+    color:#CFD0D2;
+}
+
+.mt-5{
+    color:#CFD0D2;
+}
+
+.sr-only{
+    font-size: 10px;
+}
+#ok{
+    padding-top:110px;
+    width:300px;
+    margin:auto;
+}
+#center{
+    padding-top:80px;
+}
+
+/*create match*/
+#radioForm{
+    padding-left: 80px;
+}
+
+#p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*sign up*/
+#signUp{
+    background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#img {
+    width:180px;
+}
+#image {
+    width: 150px;
+}
+

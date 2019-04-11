@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext.jsx";
+import { Link } from "react-router-dom";
 import "../../styles/index.css";
 
 export class SignUpForm extends React.Component {
@@ -9,256 +10,246 @@ export class SignUpForm extends React.Component {
 		this.state = {
 			first_name: "",
 			last_name: "",
+			user_name: "",
 			email: "",
-			username: "",
 			password: "",
-			days: "",
 			months: "",
+			days: "",
 			year: ""
 		};
 	}
-
 	render() {
 		return (
-			<div className="container">
-				<form className="needs-validation" noValidate>
-					<div className="py-5 text-center">
+			<div className="container-fluid" id="signUp">
+				<div className="text-center pt-4">
+					<img
+						src="https://www.cookfood.net/Content/images/sign-up-title.png"
+						className="rounded"
+						alt="..."
+						id="img"
+					/>
+				</div>
+				<h4 className="text-white text-center pt-4">or</h4>
+				<div className="text-center pt-4">
+					<Link className="link" to="/login">
 						<img
-							className="d-block mx-auto mb-4"
-							src="https://www.theworkperk.com/wp-content/uploads/2016/11/sing-up.png"
-							alt=""
-							width="150"
-							height="150"
+							src="https://www.loginbusiness.com/wp-content/uploads/2018/06/login-logo-web-transparent.png"
+							className="rounded"
+							alt="..."
+							id="image"
 						/>
-						<h2>Sign up</h2>
-						<h3> or</h3>
-						<a
-							className="btn btn-primary"
-							href="/login"
-							role="button">
-							Login
-						</a>
-					</div>
-					<div className="row ">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="group-form">
+					</Link>
+				</div>
+				<div className="row pt-2">
+					<div className="col-sm-4" />
+					<div className="col-sm-4" id="signForm">
+						<form className="needs-validation" noValidate>
+							<div className="pt-4">
 								<label
-									className="sr-only"
-									htmlFor="signup_popup_firstname">
+									className="sign-form"
+									htmlFor="first_name">
 									{this.props.first_name}
 								</label>
 								<input
+									className="form-control"
 									type="text"
 									onChange={e =>
 										this.setState({
 											first_name: e.target.value
 										})
 									}
-									className="form-control"
-									name="signup_popup_firstname"
-									id="signup_popup_firstname"
-									placeholder="First Name"
 									value={this.state.first_name}
+									id="first_name"
+									name="first_name"
+									placeholder="First Name"
 									required
 								/>
 							</div>
-						</div>
-						<div className="col-sm-3" />
-					</div>
-					<div className="row">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="group-form py-4">
+							<div className="pt-2">
 								<label
-									className="sr-only"
-									htmlFor="signup_popup_lastname">
+									className="sign-form"
+									htmlFor="last_name">
 									{this.props.last_name}
 								</label>
 								<input
+									className="form-control"
 									type="text"
+									id="last_name"
+									name="last_name"
 									onChange={e =>
 										this.setState({
 											last_name: e.target.value
 										})
 									}
-									className="form-control"
-									name="signup_popup_lastname"
-									id="signup_popup_lastname"
-									placeholder="Last Name"
 									value={this.state.last_name}
+									placeholder="Last Name"
 									required
 								/>
 							</div>
-						</div>
-						<div className="col-sm-3" />
-					</div>
-					<div className="row">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="group-form">
-								<label
-									className="sr-only"
-									htmlFor="signup_popup_email">
-									{this.state.email}
+							<div className="pt-2">
+								<label className="sign-form" htmlFor="email">
+									{this.props.email}
 								</label>
 								<input
-									type="text"
-									onChange={e =>
-										this.setState({
-											email: e.target.value
-										})
-									}
 									className="form-control"
-									name="signup_popup_email"
-									id="signup_popup_email"
-									placeholder="Email Address"
+									type="text"
+									id="email"
+									name="email"
+									onChange={e =>
+										this.setState({ email: e.target.value })
+									}
 									value={this.state.email}
+									placeholder="Email Address"
 									required
 								/>
 							</div>
-						</div>
-						<div className="col-sm-3" />
-					</div>
-					<div className="row">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="group-form py-4">
+							<div className="text pt-2">
 								<label
-									className="sr-only"
-									htmlFor="signup_popup_username">
-									{this.props.username}
+									className="sign-form"
+									htmlFor="user_name">
+									{this.props.user_name}
 								</label>
 								<input
+									className="form-control"
 									type="text"
+									id="user_name"
+									name="user_name"
 									onChange={e =>
 										this.setState({
-											username: e.target.value
+											user_name: e.target.value
 										})
 									}
-									className="form-control"
-									name="signup_popup_username"
-									id="signup_popup_username"
+									value={this.state.user_name}
 									placeholder="Username"
-									value={this.state.username}
 									required
 								/>
 							</div>
-						</div>
-						<div className="col-sm-3" />
-					</div>
-					<div className="row">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="group-form">
-								<label
-									className="sr-only"
-									htmlFor="signup_popup_password">
+							<div className="text pt-2">
+								<label className="sign-form" htmlFor="password">
 									{this.props.password}
 								</label>
 								<input
+									className="form-control"
 									type="text"
+									id="password"
+									name="password"
 									onChange={e =>
 										this.setState({
 											password: e.target.value
 										})
 									}
-									className="form-control"
-									name="signup_popup_password"
-									id="signup_popup_password"
-									placeholder="Password"
 									value={this.state.password}
+									placeholder="Password"
 									required
 								/>
 							</div>
-						</div>
-						<div className="col-sm-3" />
-					</div>
-					<div className="row py-4">
-						<div className="col-sm-3" />
-						<div className="col-sm-3">
-							<label>BrithDay:</label>
-						</div>
-						<div className="col-sm-3">
-							<select className="form-control pull-left" required>
-								<Context.Consumer>
-									{({ store }) => {
-										return store.months.map((item, d) => {
-											return (
-												<option key={d} value={item}>
-													{item}
-												</option>
-											);
-										});
-									}}
-								</Context.Consumer>
-							</select>
-						</div>
-					</div>
-					<div className="row">
-						<div className="col-sm-3" />
-						<div className="col-sm-3">
-							<select className="form-control pull-left">
-								<Context.Consumer>
-									{({ store }) => {
-										return store.days.map((item, d) => {
-											return (
-												<option key={d} value={item}>
-													{item}
-												</option>
-											);
-										});
-									}}
-								</Context.Consumer>
-							</select>
-						</div>
-						<div className="col-sm-3">
-							<select className="form-control pull-right">
-								<Context.Consumer>
-									{({ store }) => {
-										return store.year.map((item, d) => {
-											return (
-												<option key={d} value={item}>
-													{item}
-												</option>
-											);
-										});
-									}}
-								</Context.Consumer>
-							</select>
-						</div>
-					</div>
-					<div className="row py-4">
-						<div className="col-sm-3" />
-						<div className="col-sm-6">
-							<div className="form-button ">
-								<Context.Consumer>
-									{({ store, actions }) => {
-										return (
-											<button
-												id="signup"
-												type="submit"
-												className="btn btn-info btn-full-width no-trans"
-												onClick={e =>
-													actions.addUser(
-														this.state.first_name,
-														this.state.last_name,
-														this.state.username,
-														this.state.password,
-														this.state.days,
-														this.state.months,
-														this.state.year
-													)
-												}>
-												Sign Up
-											</button>
-										);
-									}}
-								</Context.Consumer>
+							<div className="row pt-4">
+								<div className="col">
+									<label className="sign-form text-white">
+										BirthDay:
+									</label>
+								</div>
+								<div className="col">
+									<select className="sign-form" required>
+										<Context.Consumer>
+											{({ store }) => {
+												return store.months.map(
+													(item, d) => {
+														return (
+															<option
+																key={d}
+																value={item}>
+																{item}
+															</option>
+														);
+													}
+												);
+											}}
+										</Context.Consumer>
+									</select>
+								</div>
+								<div className="col text-center">
+									<select className="sign-form" required>
+										<Context.Consumer>
+											{({ store }) => {
+												return store.days.map(
+													(item, m) => {
+														return (
+															<option
+																key={m}
+																value={item}>
+																{item}
+															</option>
+														);
+													}
+												);
+											}}
+										</Context.Consumer>
+									</select>
+								</div>
+								<div className="col">
+									<select
+										className="sign-form float-right"
+										required>
+										<Context.Consumer>
+											{({ store }) => {
+												return store.year.map(
+													(item, y) => {
+														return (
+															<option
+																key={y}
+																value={item}>
+																{item}
+															</option>
+														);
+													}
+												);
+											}}
+										</Context.Consumer>
+									</select>
+								</div>
 							</div>
-						</div>
+							<div className="row py-4">
+								<div className="col-sm-5" />
+								<div className="col-sm-2">
+									<div className="form-button ">
+										<Context.Consumer>
+											{({ store, actions }) => {
+												return (
+													<button
+														type="submit"
+														className="btn btn-outline-warning btn-full-width no-trans"
+														onClick={e =>
+															actions.addUser(
+																this.state
+																	.first_name,
+																this.state
+																	.last_name,
+																this.state
+																	.user_name,
+																this.state
+																	.email,
+																this.state
+																	.password,
+																this.state.days,
+																this.state
+																	.months,
+																this.state.year
+															)
+														}>
+														Sign Up
+													</button>
+												);
+											}}
+										</Context.Consumer>
+									</div>
+								</div>
+								<div className="col-sm-5" />
+							</div>
+						</form>
 					</div>
-				</form>
+					<div className="col-sm-4" />
+				</div>
 			</div>
 		);
 	}
@@ -268,6 +259,6 @@ SignUpForm.propTypes = {
 	first_name: PropTypes.string,
 	last_name: PropTypes.string,
 	email: PropTypes.string,
-	username: PropTypes.string,
+	user_name: PropTypes.string,
 	password: PropTypes.string
 };

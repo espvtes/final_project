@@ -32,6 +32,9 @@ export class Dropdown extends React.Component {
 						<a className="dropdown-item" href="#nogo">
 							Dogecoin
 						</a>
+						<a className="dropdown-item" href="#nogo">
+							Monero
+						</a>
 					</div>
 				</button>
 			</div>

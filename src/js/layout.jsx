@@ -11,6 +11,7 @@ import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
 import { MatchCreate } from "./views/matchCreate.jsx";
 import { Displayed } from "./views/displayed.jsx";
+import { Joinmatch } from "./views/joinmatch.jsx";
 
 import { Profile } from "./views/profile.jsx";
 
@@ -38,6 +39,7 @@ export class Layout extends React.Component {
 						<Route path="/sign_up" component={Sign_up} />
 						<Route path="/matchCreate" component={MatchCreate} />
 						<Route path="/displayed" component={Displayed} />
+						<Route path="/joinmatch" component={Joinmatch} />
 
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
