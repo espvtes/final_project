@@ -9,6 +9,7 @@ import { Login } from "./views/login.jsx";
 import { Overview } from "./views/overview.jsx";
 import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
+import { Challenge } from "./views/challenge.jsx";
 
 import { Joinmatch } from "./views/joinmatch.jsx";
 import { Score } from "./views/score.jsx";
@@ -41,6 +42,7 @@ export class Layout extends React.Component {
 						<Route path="/joinmatch" component={Joinmatch} />
 						<Route path="/score" component={Score} />
 						<Route path="/playNow" component={PlayNow} />
+						<Route path="/challenge" component={Challenge} />
 
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>

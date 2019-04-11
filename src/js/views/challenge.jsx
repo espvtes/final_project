@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-export class Table extends React.Component {
+export class Challenge extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { size: 3 };
 	}
 	render() {
 		return (
-			<div className="container-fluid">
-				<div className="text-center px-2" id="firsttab">
+			<div className="container">
+				<div className="text-center px-4" id="firsttab">
 					<h2>Play Someone Now</h2>
 					<table
 						id={this.props.id}
-						className="table text-center table-dark shadow rounded">
+						className="table text-center table-dark">
 						<thead>
 							<tr>
 								<th scope="col">Player</th>
@@ -89,6 +89,6 @@ export class Table extends React.Component {
 		);
 	}
 }
-Table.propTypes = {
+Challenge.propTypes = {
 	id: PropTypes.string
 };

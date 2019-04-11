@@ -30,11 +30,12 @@ html, body {
     margin: 0 auto -20px;
 }
 .jumbotron{
-    background-image: url(../images/fight1.gif);
+    /*background-image: url(../images/fight1.gif);*/
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 80%;
-    color: #32EA19;
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0% 80%;*/
+    color: white;
+    background-image: url("https://images.wallpaperscraft.com/image/playstation_gamepad_crash_22102_1280x720.jpg");
 }
 #imageDiv {
   width: 100%;
@@ -68,7 +69,10 @@ html, body {
     color: #32EA19 !important;
 }
 body{
-    background-color: black;
+        background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
+
+    /*background-color:#1A4049;*/
+    /*background-image: url("https://images.wallpaperscraft.com/image/xbox_xbox_one_console_joystick_headphones_105112_1280x720.jpg");*/
 }
 .main, #profpage, #joined {
     background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
@@ -114,7 +118,7 @@ body{
 
 
 .matches{
-    background-color:#2F5F83;
+    background-color: none !important;
 }
 
 .card{
