@@ -26,6 +26,9 @@ export class Navbar extends React.Component {
 						<button className="btn btn btn-outline-dark text-white">
 							Join a Match
 						</button>
+						</Link>
+					<Link className="pl-4" to="/playNow">
+						<button className="btn">Join a Match</button>
 					</Link>
 				</div>
 				<div className="ml-auto" id="jump_to_me">

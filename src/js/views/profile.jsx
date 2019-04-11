@@ -1,8 +1,7 @@
 import React from "react";
 import "../../styles/index.css";
 import Hulk from "../../images/Hulk.jpg";
-import { Table_prof } from "../component/table_prof.jsx";
-import { Optionmenu } from "../component/optionmenu.jsx";
+import { Opengames } from "../component/opengames.jsx";
 
 export class Profile extends React.Component {
 	render() {
@@ -15,14 +14,15 @@ export class Profile extends React.Component {
 					</div>
 					<div className="col text-center">
 						<h1>Welcome back, Hulkedout!</h1>
-						<h2 className="balance mt-5"> Account Balance</h2>
-						<h3 className="account">$250</h3>
-						<Table_prof />
+						<h2 className="balance mt-5"> Unmatched Games</h2>
 						<div>
-							<h3>Add Funds</h3>
-							<Optionmenu />
-							<h3>Withdraw Funds</h3>
-							<Optionmenu />
+							<Opengames />
+							<a
+								role="button"
+								href="/matchCreate"
+								className="btn  mt-2">
+								Create a Match
+							</a>
 						</div>
 					</div>
 				</div>
