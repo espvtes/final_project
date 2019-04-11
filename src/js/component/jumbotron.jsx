@@ -10,10 +10,7 @@ export class Jumbotron extends React.Component {
 					<b>Square Up</b>
 				</h1>
 				<p className="lead" id="compete">
-					<b>
-						Where gamers compete for bragging rights and digital
-						currency.
-					</b>
+					<b>Where gamers compete for bragging rights and cash.</b>
 				</p>
 				<p className="lead">
 					<a

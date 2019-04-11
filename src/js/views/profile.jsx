@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/index.css";
 import Hulk from "../../images/Hulk.jpg";
 import { Table_prof } from "../component/table_prof.jsx";
-import { Dropdown } from "../component/dropdown.jsx";
+import { Optionmenu } from "../component/optionmenu.jsx";
 
 export class Profile extends React.Component {
 	render() {
@@ -20,9 +20,9 @@ export class Profile extends React.Component {
 						<Table_prof />
 						<div>
 							<h3>Add Funds</h3>
-							<Dropdown />
+							<Optionmenu />
 							<h3>Withdraw Funds</h3>
-							<Dropdown />
+							<Optionmenu />
 						</div>
 					</div>
 				</div>

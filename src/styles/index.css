@@ -1,28 +1,3 @@
-/* 
-    General Styles
-*/
-/*login form*/
-
-
-/*.email{*/
-/*    font-size: 18px;*/
-/*    position: relative;*/
-/*    box-sizing: border-box;*/
-/*    height: auto;*/
-/*    padding: 10px;*/
-/*}*/
-
-/*.password{*/
-/*    position: relative;*/
-/*    box-sizing: border-box;*/
-/*    height: auto;*/
-/*    padding: 10px;*/
-/*    font-size: 18px;*/
-/*}*/
-
-/*.name{*/
-/*    float: bottom;*/
-/*}*/
 
 
 #profpic{
@@ -95,7 +70,7 @@ html, body {
 body{
     background-color: black;
 }
-.main, #profpage, #joined{
+.main, #profpage, #joined {
     background-image: url('http://4everstatic.com/imagenes/construcciones/muro-de-piedra,-fondo-negro-200650.jpg');
     height: 100%;
     background-position: center;
