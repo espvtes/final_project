@@ -1,10 +1,10 @@
 import React from "react";
-import { MatchesForm } from "../component/MatchesForm.jsx";
+import { Matchcreate } from "../component/matchcreate.jsx";
 export class Match extends React.Component {
 	render() {
 		return (
 			<div>
-				<MatchesForm />
+				<Matchcreate />
 			</div>
 		);
 	}
