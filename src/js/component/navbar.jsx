@@ -20,7 +20,7 @@ export class Navbar extends React.Component {
 						</button>
 					</Link>
 
-					<Link className="pl-4" to="/matchesForm">
+					<Link className="pl-4" to="/playNow">
 						<button className="btn">Join a Match</button>
 					</Link>
 				</div>

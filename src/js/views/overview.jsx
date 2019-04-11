@@ -44,7 +44,10 @@ export class Overview extends React.Component {
 								<li>Find or wait for an opponent</li>
 								<li>Play</li>
 							</p>
-							<a href="/match" className="btn mt-1" id="step2">
+							<a
+								href="/matchCreate"
+								className="btn mt-1"
+								id="step2">
 								Choose your game
 							</a>
 						</div>
