@@ -21,8 +21,6 @@ export class Profile extends React.Component {
 						<div>
 							<h3>Add Funds</h3>
 							<Dropdown />
-						</div>
-						<div>
 							<h3>Withdraw Funds</h3>
 							<Dropdown />
 						</div>

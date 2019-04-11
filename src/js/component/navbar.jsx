@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export class Navbar extends React.Component {
+	constructor(props) {
+		super(props);
+		this.myRef = React.createRef();
+	}
 	render() {
 		return (
 			<nav className="navbar navbar-dark bg-dark mb-3">
@@ -14,8 +19,11 @@ export class Navbar extends React.Component {
 							How it works
 						</button>
 					</Link>
-					<Link className="ml-5" to="/matches">
-						<button className="btn" id="nav2">
+
+					<Link className="pl-4" to="/">
+						<button
+							className="btn btn-primary"
+							href={this.props.hreftarget}>
 							Join a Match
 						</button>
 					</Link>
@@ -36,3 +44,7 @@ export class Navbar extends React.Component {
 		);
 	}
 }
+
+Navbar.propTypes = {
+	hreftarget: PropTypes.string
+};

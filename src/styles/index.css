@@ -31,7 +31,7 @@
 }
 #content{
     position: relative;
-    /*background-color: black;*/
+    background-color: black;
 }
 .footer{
     position: absolute;
@@ -219,5 +219,33 @@ body{
 }
 #image {
     width: 150px;
+}
+
+.whole{
+    background-color: black;
+}
+
+/*score*/
+#chat{
+    width:100%;
+    height:70px;
+    font-size:14px;
+    border-radius: 1;
+    margin:auto;
+    text-align:center;
+}
+#score{
+    background-color:#E8F1F3;
+}
+
+/*play now*/
+#play{
+    background-color:#F4EED9;
+}
+#thead{
+    background-color:#19284B;
+}
+#table{
+    background-color:#F9EFCA;
 }
 

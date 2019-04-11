@@ -16,7 +16,7 @@ export class CreateMatch extends React.Component {
 
 	render() {
 		return (
-			<div className="container-fluid">
+			<div className="container-fluid bg-light">
 				<div className="row py-4">
 					<div className="col-sm-3" />
 					<div
@@ -29,98 +29,14 @@ export class CreateMatch extends React.Component {
 						</div>
 						<hr />
 						<br />
+						<div className="day">
+							<h4>Day:</h4>
+						</div>
+						<hr />
 						<div className="games">
 							<h4>Choose a game:</h4>
 							<div className="row pt-4">
-								<div className="col-sm-3" id="radioForm">
-									<div className="form-check">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Basketball
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Bowling
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Starcraft
-										</label>
-									</div>
-								</div>
-								<div className="col-sm-3">
-									<div className="form-check">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Call of duty
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Fifa
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Baseball
-										</label>
-									</div>
-								</div>
-								<div className="col-sm-3">
+								<div className="col" id="radioForm">
 									<div className="form-check">
 										<input
 											className="form-check-input"
@@ -135,7 +51,9 @@ export class CreateMatch extends React.Component {
 											Fortnite
 										</label>
 									</div>
-									<div className="form-check pt-4">
+								</div>
+								<div className="col">
+									<div className="form-check">
 										<input
 											className="form-check-input"
 											type="radio"
@@ -149,22 +67,8 @@ export class CreateMatch extends React.Component {
 											Apex Legends
 										</label>
 									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Rummy
-										</label>
-									</div>
 								</div>
-								<div className="col-sm-3">
+								<div className="col">
 									<div className="form-check">
 										<input
 											className="form-check-input"
@@ -176,35 +80,7 @@ export class CreateMatch extends React.Component {
 										<label
 											className="form-check-label"
 											htmlFor="exampleRadios1">
-											Doom
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Poker
-										</label>
-									</div>
-									<div className="form-check pt-4">
-										<input
-											className="form-check-input"
-											type="radio"
-											name="exampleRadios"
-											id="exampleRadios1"
-											value="option1"
-										/>
-										<label
-											className="form-check-label"
-											htmlFor="exampleRadios1">
-											Billiards
+											Fifa
 										</label>
 									</div>
 								</div>
@@ -214,9 +90,7 @@ export class CreateMatch extends React.Component {
 						<br />
 						<h4 className="text ">Choose the console:</h4>
 						<div className="row pt-4">
-							<div
-								className="col-sm-3 custom-radio"
-								id="radioForm">
+							<div className="col custom-radio" id="radioForm">
 								<input
 									type="radio"
 									id="customRadioInline1"
@@ -229,7 +103,7 @@ export class CreateMatch extends React.Component {
 									Play Station 4
 								</label>
 							</div>
-							<div className="col-sm-3 custom-radio pl-4">
+							<div className="col custom-radio pl-4">
 								<input
 									type="radio"
 									id="customRadioInline2"
@@ -242,20 +116,7 @@ export class CreateMatch extends React.Component {
 									Xbox one
 								</label>
 							</div>
-							<div className="col-sm-3 custom-radio pl-4">
-								<input
-									type="radio"
-									id="customRadioInline3"
-									name="customRadioInline3"
-									className="custom-control-input"
-								/>
-								<label
-									className="custom-control-label"
-									htmlFor="customRadioInline3">
-									Xbox (controller)
-								</label>
-							</div>
-							<div className="col-sm-3 custom-radio pl-4">
+							<div className="col custom-radio pl-4">
 								<input
 									type="radio"
 									id="customRadioInline4"
@@ -329,35 +190,17 @@ export class CreateMatch extends React.Component {
 							</div>
 						</div>
 						<hr />
-						<h4>Rules:</h4>
-						<div className="row pt-4" id="p">
-							<p className="text-justify">
-								Following Rules and Regulations in the Army
-								There are many reasons in that in this world we
-								have rules, regulations, laws, traffic signs,
-								and other means of directions that individuals
-								must follow for various reasons. Without the
-								utmost care to follow these rules, things that
-								could easily be prevented may happen, resulting
-								in very negative things. This however, is even
-								more important when in the Army, as the
-								consequences can be very severe. The Army has a
-								plethora of rules and regulations that all… Show
-								More
-							</p>
-						</div>
-						<hr />
 						<div className="terms text-center py-4">
 							<input type="checkbox" name="terms" />
 							<span> I Agree the Terms & Conditions</span>
 							<br />
 							<br />
-							<Link className="link" to="/displayed">
+							<Link className="link" to="/">
 								<button
 									type="button"
 									className="btn btn-info"
 									name="Display the match">
-									Display the match
+									Create a match
 								</button>
 							</Link>
 						</div>
