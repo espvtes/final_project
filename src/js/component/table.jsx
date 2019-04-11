@@ -7,7 +7,7 @@ export class Table extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className="text-center" id="firsttab">
 				<h2>Play Someone Now</h2>
 				<table
 					id={this.props.id}
@@ -26,10 +26,7 @@ export class Table extends React.Component {
 							<td>Mortal Kombat 11</td>
 							<td>$10</td>
 							<td>whenever</td>
-							<a
-								role="button"
-								href="/login"
-								className="btn btn-success mt-2">
+							<a role="button" href="/login" className="btn mt-2">
 								Accept Challenge
 							</a>
 						</tr>
@@ -41,7 +38,7 @@ export class Table extends React.Component {
 							<a
 								role="button"
 								href="/login"
-								className="btn btn-success mt-2">
+								className="btn  mt-2">
 								Accept Challenge
 							</a>
 						</tr>
@@ -53,7 +50,7 @@ export class Table extends React.Component {
 							<a
 								role="button"
 								href="/login"
-								className="btn btn-success mt-2">
+								className="btn  mt-2">
 								Accept Challenge
 							</a>
 						</tr>
@@ -62,10 +59,7 @@ export class Table extends React.Component {
 							<td>The Division</td>
 							<td>$300</td>
 							<td>whenever</td>
-							<a
-								role="button"
-								href="/login"
-								className="btn btn-success mt-2">
+							<a role="button" href="/login" className="btn mt-2">
 								Accept Challenge
 							</a>
 						</tr>
@@ -74,10 +68,7 @@ export class Table extends React.Component {
 							<td>Call of Duty</td>
 							<td>$125</td>
 							<td>whenever</td>
-							<a
-								role="button"
-								href="/login"
-								className="btn btn-success mt-2">
+							<a role="button" href="/login" className="btn mt-2">
 								Accept Challenge
 							</a>
 						</tr>
