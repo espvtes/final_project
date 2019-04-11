@@ -16,7 +16,7 @@ export class PlayNow extends React.Component {
 						<table
 							className="table border border-secondary shadow p-3 mb-6 rounded"
 							id="table">
-							<thead className="thead" id="thead">
+							<thead className="thead text-white" id="thead">
 								<tr>
 									<th scope="col">Player</th>
 									<th scope="col">Game</th>
