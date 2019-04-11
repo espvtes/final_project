@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 export class Table extends React.Component {
 	constructor(props) {
 		super(props);
@@ -9,7 +9,9 @@ export class Table extends React.Component {
 		return (
 			<div>
 				<h2>Play Someone Now</h2>
-				<table className="table text-center table-dark">
+				<table
+					id={this.props.id}
+					className="table text-center table-dark">
 					<thead>
 						<tr>
 							<th scope="col">Player</th>
@@ -85,3 +87,6 @@ export class Table extends React.Component {
 		);
 	}
 }
+Table.propTypes = {
+	id: PropTypes.string
+};

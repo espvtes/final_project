@@ -10,7 +10,8 @@ import { Overview } from "./views/overview.jsx";
 import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
 import { MatchCreate } from "./views/matchCreate.jsx";
-import { Displayed } from "./views/displayed.jsx";
+import { Score } from "./views/score.jsx";
+import { PlayNow } from "./views/playNow.jsx";
 
 import { Profile } from "./views/profile.jsx";
 
@@ -25,7 +26,7 @@ export class Layout extends React.Component {
 		return (
 			<BrowserRouter>
 				<ScrollToTop>
-					<Navbar />
+					<Navbar href="#id" />
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/demo" component={Demo} />
@@ -37,7 +38,8 @@ export class Layout extends React.Component {
 						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
 						<Route path="/matchCreate" component={MatchCreate} />
-						<Route path="/displayed" component={Displayed} />
+						<Route path="/score" component={Score} />
+						<Route path="/playNow" component={PlayNow} />
 
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>

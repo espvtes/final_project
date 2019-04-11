@@ -19,7 +19,7 @@ export class Home extends React.Component {
 			<div className="container-fluid " id="content">
 				<Jumbotron />
 				<Popular />
-				<Table />
+				<Table id="id" />
 			</div>
 		);
 	}

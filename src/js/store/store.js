@@ -169,7 +169,8 @@ const getState = ({ getStore, setStore }) => {
 				1902,
 				1901,
 				1900
-			]
+			],
+			score: ["submit score", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 		},
 		actions: {
 			addUser: (n, l, e, u, p, d, m, y) => {
