@@ -20,10 +20,8 @@ export class Navbar extends React.Component {
 						</button>
 					</Link>
 
-					<Link className="pl-4" to="/">
-						<button className="btn" href={this.props.hreftarget}>
-							Join a Match
-						</button>
+					<Link className="pl-4" to="/matchesForm">
+						<button className="btn">Join a Match</button>
 					</Link>
 				</div>
 				<div className="ml-auto" id="jump_to_me">
