@@ -1,12 +1,12 @@
 import React from "react";
-import { CreateMatch } from "../component/createMatch.jsx";
+import { Matchcreate } from "../component/matchcreate.jsx";
 import "../../styles/index.css";
 
-export class MatchCreate extends React.Component {
+export class Matchcreate extends React.Component {
 	render() {
 		return (
 			<div>
-				<CreateMatch />
+				<Matchcreate />
 			</div>
 		);
 	}

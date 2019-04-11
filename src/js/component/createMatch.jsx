@@ -31,6 +31,7 @@ export class CreateMatch extends React.Component {
 						<br />
 						<div className="day">
 							<h4>Day:</h4>
+							<div className="days">April 12, 2019</div>
 						</div>
 						<hr />
 						<div className="games">

@@ -8,6 +8,14 @@ export class MatchesForm extends React.Component {
 		this.state = {};
 	}
 	render() {
-		return <div className="joinMatch">nothing here</div>;
+		return (
+			<div className="joinMatch">
+				<div className="row">
+					<div className="col" />
+					<div className="col-8">nothing here</div>
+					<div className="col" />
+				</div>
+			</div>
+		);
 	}
 }

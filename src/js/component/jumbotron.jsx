@@ -16,7 +16,7 @@ export class Jumbotron extends React.Component {
 					<a
 						className="btn btn-lg"
 						id="homebtn"
-						href="/match"
+						href="/matchCreate"
 						role="button">
 						Matchup
 					</a>
