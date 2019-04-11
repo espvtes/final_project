@@ -33,7 +33,7 @@ export class Optionmenu extends React.Component {
 					<div className="mt-1">
 						<a
 							className="btn  mt-4"
-							href="www.paypal.com/login"
+							href="https://www.paypal.com/us/signin"
 							role="button">
 							Submit
 						</a>

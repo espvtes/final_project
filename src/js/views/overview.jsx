@@ -14,12 +14,15 @@ export class Overview extends React.Component {
 							src={Typing}
 							alt="Card image cap"
 						/>
-						<div className="card-body mt-5 steps" id="s3">
+						<div className="card-body mt-4 steps" id="s3">
 							<h5 className="card-title">Step One</h5>
 							<p className="card-text">
 								<li>Sign up</li>
 								<li>Create profile</li>
-								<li>Link your Paypal account</li>
+								<li>
+									Add money through Paypal, Zelle, Apple Pay,
+									and Google Wallet
+								</li>
 							</p>
 							<a href="/sign_up" className="btn" id="step1">
 								Sign Up
