@@ -1,12 +1,12 @@
 import ScrollToTop from "./component/functional/scrollToTop.jsx";
-
+import React from "react";
 import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Login } from "./views/login.jsx";
 import { Overview } from "./views/overview.jsx";
+import { Match } from "./views/match.jsx";
 import { Sign_up } from "./views/sign_up.jsx";
-import { MatchCreate } from "./views/matchCreate.jsx";
 
 import { Joinmatch } from "./views/joinmatch.jsx";
 import { Score } from "./views/score.jsx";
@@ -34,9 +34,8 @@ export class Layout extends React.Component {
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/login" component={Login} />
 						<Route path="/profile" component={Profile} />
+						<Route path="/match" component={Match} />
 						<Route path="/sign_up" component={Sign_up} />
-						<Route path="/matchCreate" component={MatchCreate} />
-
 						<Route path="/joinmatch" component={Joinmatch} />
 						<Route path="/score" component={Score} />
 						<Route path="/playNow" component={PlayNow} />
