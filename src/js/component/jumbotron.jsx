@@ -10,13 +10,12 @@ export class Jumbotron extends React.Component {
 				<h1 className="display-3">
 					<b>Square Up</b>
 				</h1>
-				<p className="lead" id="compete">
+				<p className="lead text-light">
 					<b>Where gamers compete for bragging rights and cash.</b>
 				</p>
 				<p className="lead">
 					<a
-						className="btn btn-lg"
-						id="homebtn"
+						className="btn btn-outline-warning btn-lg"
 						href="/challenge"
 						role="button">
 						Matchup

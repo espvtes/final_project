@@ -15,23 +15,31 @@ export class Navbar extends React.Component {
 				</Link>
 				<div className="mr-auto">
 					<Link className="ml-3" to="/overview">
-						<button className="btn" id="nav1">
+						<button
+							className="btn btn btn-outline-dark text-white"
+							id="nav1">
 							How it works
 						</button>
 					</Link>
 
 					<Link className="pl-4" to="/matchesForm">
-						<button className="btn">Join a Match</button>
+						<button className="btn btn btn-outline-dark text-white">
+							Join a Match
+						</button>
 					</Link>
 				</div>
 				<div className="ml-auto" id="jump_to_me">
 					<Link className="mr-2" to="/sign_up">
-						<button className="btn" id="nav3">
+						<button
+							className="btn btn-outline-dark text-white"
+							id="nav3">
 							Sign up
 						</button>
 					</Link>
 					<Link to="/login">
-						<button className="btn" id="nav4">
+						<button
+							className="btn btn btn-outline-dark text-white"
+							id="nav4">
 							Login
 						</button>
 					</Link>
