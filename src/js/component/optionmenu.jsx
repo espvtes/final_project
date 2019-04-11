@@ -28,13 +28,15 @@ export class Optionmenu extends React.Component {
 									placeholder="Amount"
 								/>
 							</div>
-							<a
-								className="btn btn-primary pb-0"
-								href="www.paypal.com/login"
-								role="button">
-								Submit
-							</a>
 						</form>
+					</div>
+					<div className="mt-1">
+						<a
+							className="btn  mt-4"
+							href="www.paypal.com/login"
+							role="button">
+							Submit
+						</a>
 					</div>
 				</div>
 			</div>

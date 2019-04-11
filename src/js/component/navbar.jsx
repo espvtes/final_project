@@ -21,9 +21,7 @@ export class Navbar extends React.Component {
 					</Link>
 
 					<Link className="pl-4" to="/">
-						<button
-							className="btn btn-primary"
-							href={this.props.hreftarget}>
+						<button className="btn" href={this.props.hreftarget}>
 							Join a Match
 						</button>
 					</Link>
