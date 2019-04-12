@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Cashout from "../../images/cashout.png";
 import Controller from "../../images/controller.jpg";
 import Typing from "../../images/typing.jpg";
@@ -47,12 +48,14 @@ export class Overview extends React.Component {
 								<li>Find or wait for an opponent</li>
 								<li>Play</li>
 							</p>
-							<a
-								href="/match"
-								className="btn btn-dark mt-1"
-								id="step2">
-								Choose your game
-							</a>
+							<Link className="step2" to="/matchCreate">
+								<button
+									href="/match"
+									className="btn btn-dark mt-1"
+									id="step2">
+									Choose your game
+								</button>
+							</Link>
 						</div>
 					</div>
 					<div className="col-3 mr-2 mt-4" id="third">

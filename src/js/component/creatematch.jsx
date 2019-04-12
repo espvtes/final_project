@@ -16,14 +16,16 @@ export class CreateMatch extends React.Component {
 
 	render() {
 		return (
-			<div className="container-fluid bg-light">
+			<div className="container-fluid">
 				<div className="row py-4">
 					<div className="col-sm-3" />
 					<div
-						className="col-sm-6 shadow p-3 mb-6 rounded"
+						className="col-sm-6 shadow bg-light p-3 mb-6 rounded"
 						id="formCreate">
 						<div className="pt-4">
-							<h1 className="title badge-pill badge-info">
+							<h1
+								className="title badge-pill badge-info"
+								id="info">
 								Match options:
 							</h1>
 						</div>
@@ -196,7 +198,7 @@ export class CreateMatch extends React.Component {
 							<span> I Agree the Terms & Conditions</span>
 							<br />
 							<br />
-							<Link className="link" to="/">
+							<Link className="link" to="/playNow">
 								<button
 									type="button"
 									className="btn btn-info"
