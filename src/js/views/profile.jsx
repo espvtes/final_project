@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/index.css";
 import Hulk from "../../images/Hulk.jpg";
 import { Opengames } from "../component/opengames.jsx";
+import { Link } from "react-router-dom";
 
 export class Profile extends React.Component {
 	render() {
@@ -17,12 +18,13 @@ export class Profile extends React.Component {
 						<h2 className="balance mt-5"> Unmatched Games</h2>
 						<div>
 							<Opengames />
-							<a
-								role="button"
-								href="/matchCreate"
-								className="btn  mt-2">
-								Create a Match
-							</a>
+							<Link className="cash text-white" to="/matchCreate">
+								<button
+									role="button"
+									className="btn  mt-2 btn-outline-warning">
+									Create a Match
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
