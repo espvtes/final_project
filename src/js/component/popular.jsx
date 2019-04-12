@@ -6,7 +6,7 @@ export class Popular extends React.Component {
 	render() {
 		return (
 			<div className="text-center container" id="popgame">
-				<h2>Popular Games</h2>
+				<h2 className="text-white">Popular Games</h2>
 				<div className="card-deck text-white px-4">
 					<div className="row matches py-4 rounded">
 						<div className="row">
@@ -27,7 +27,7 @@ export class Popular extends React.Component {
 													className="create"
 													to="/playNow">
 													<button
-														className="btn btn-outline-dark"
+														className="btn btn-outline-dark text-white"
 														id="button"
 														type="submit"
 														name="fifa"
@@ -58,7 +58,7 @@ export class Popular extends React.Component {
 													className="create"
 													to="/playNow">
 													<button
-														className="btn btn-outline-dark"
+														className="btn btn-outline-dark text-white"
 														type="submit"
 														id="button"
 														name="Apex legends"
@@ -89,9 +89,8 @@ export class Popular extends React.Component {
 													className="create"
 													to="/playNow">
 													<button
-														className="btn btn-outline-dark"
+														className="btn btn-outline-dark text-white"
 														type="submit"
-														id="button"
 														name="Fortnite"
 														value="submit">
 														Play Now

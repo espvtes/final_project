@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export class PlayNow extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid bg-white py-4">
-				<div className="row">
+			<div className="container-fluid py-4">
+				<div className="row text-white">
 					<div className="col-3" />
 					<div
 						className="col-6 shadow p-3 mb-6 rounded border border-secondary"

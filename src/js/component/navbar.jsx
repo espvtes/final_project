@@ -11,7 +11,9 @@ export class Navbar extends React.Component {
 		return (
 			<nav className="navbar navbar-dark bg-dark mb-3">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">Square Up</span>
+					<span className="navbar-brand mb-0 h1 text-white">
+						SQUARE UP
+					</span>
 				</Link>
 				<div className="mr-auto">
 					<Link className="ml-3" to="/overview">
@@ -22,13 +24,10 @@ export class Navbar extends React.Component {
 						</button>
 					</Link>
 
-					<Link className="pl-4" to="/matchesForm">
-						<button className="btn btn btn-outline-dark text-white">
+					<Link className="pl-4" to="/playNow">
+						<button className="btn btn-outline-dark text-white">
 							Join a Match
 						</button>
-						</Link>
-					<Link className="pl-4" to="/playNow">
-						<button className="btn">Join a Match</button>
 					</Link>
 				</div>
 				<div className="ml-auto" id="jump_to_me">

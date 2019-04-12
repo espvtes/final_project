@@ -5,7 +5,7 @@ export class Score extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid">
-				<div className="row py-4 bg-light">
+				<div className="row py-4">
 					<div className="col-4" />
 					<div
 						className="col-4 shadow-lg p-3 mb-6 rounded"

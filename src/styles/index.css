@@ -99,7 +99,7 @@ body{
     height:200px;
 }
 #step1, #step2, #step3  {
-    background-color: #470A6A;
+    /*background-color: #470A6A;*/
   
 }
 #nav1, #nav2, #nav3, #nav4{
@@ -122,8 +122,8 @@ body{
 }
 
 .card{
-    background-color: #0C2435;
-    /*background: none !important;*/
+    /*background-color: #0C2435;*/
+    background: none !important;
 }
 .change{
     color:black;
@@ -219,13 +219,13 @@ body{
 
 /*play now*/
 #play{
-    background-color:#ECF8FB;
+    background-color:none !important;
 }
 #thead{
-    background-color:#19284B;
+    background-color:none !important;
 }
 #table{
-    background-color:#F9EFCA;
+    background-color:none !important;
 }
 
 #playButton{

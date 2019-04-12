@@ -10,13 +10,13 @@ export class Overview extends React.Component {
 				<div className="row mx-5">
 					<div className="col-4 card-text ml-5 mt-4 ">
 						<img
-							className="typing"
+							className="typing rounded"
 							src={Typing}
 							alt="Card image cap"
 						/>
 						<div className="card-body mt-4 steps" id="s3">
-							<h5 className="card-title">Step One</h5>
-							<p className="card-text">
+							<h5 className="card-title text-white">Step One</h5>
+							<p className="card-text text-white">
 								<li>Sign up</li>
 								<li>Create profile</li>
 								<li>
@@ -24,20 +24,23 @@ export class Overview extends React.Component {
 									and Google Wallet
 								</li>
 							</p>
-							<a href="/sign_up" className="btn" id="step1">
+							<a
+								href="/sign_up"
+								className="btn btn-dark"
+								id="step1">
 								Sign Up
 							</a>
 						</div>
 					</div>
 					<div className="col-4 ml-4 mt-4">
 						<img
-							className="controller"
+							className="controller rounded"
 							src={Controller}
 							alt="Card image cap"
 						/>
 						<div className="card-body mt-1 steps" id="s2">
-							<h5 className="card-title">Step Two</h5>
-							<p className="card-text">
+							<h5 className="card-title text-white">Step Two</h5>
+							<p className="card-text text-white">
 								<li>Choose your console</li>
 								<li>Choose your game</li>
 								<li>Place your bet</li>
@@ -45,8 +48,8 @@ export class Overview extends React.Component {
 								<li>Play</li>
 							</p>
 							<a
-								href="/matchCreate"
-								className="btn mt-1"
+								href="/match"
+								className="btn btn-dark mt-1"
 								id="step2">
 								Choose your game
 							</a>
@@ -54,17 +57,22 @@ export class Overview extends React.Component {
 					</div>
 					<div className="col-3 mr-2 mt-4" id="third">
 						<img
-							className="cash"
+							className="cash rounded"
 							src={Cashout}
 							alt="Card image cap"
 						/>
 						<div className="card-body mt-5 mb-3 steps" id="s3">
-							<h5 className="card-title">Step Three</h5>
-							<p className="card-text">
+							<h5 className="card-titlem text-white">
+								Step Three
+							</h5>
+							<p className="card-text text-white">
 								<li>Go to your profile</li>
 								<li>Cash out your winnings</li>
 							</p>
-							<a href="/profile" className="btn mt-4" id="step3">
+							<a
+								href="/profile"
+								className="btn btn-dark mt-4"
+								id="step3">
 								Cash out
 							</a>
 						</div>
