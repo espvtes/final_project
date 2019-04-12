@@ -56,7 +56,7 @@ export class Popular extends React.Component {
 											<div className="button">
 												<Link
 													className="create"
-													to="/playNow">
+													to="/playnowthree">
 													<button
 														className="btn btn-outline-dark text-white"
 														type="submit"
@@ -87,7 +87,7 @@ export class Popular extends React.Component {
 											<div className="button">
 												<Link
 													className="create"
-													to="/playNow">
+													to="/playnowtwo">
 													<button
 														className="btn btn-outline-dark text-white"
 														type="submit"

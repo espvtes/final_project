@@ -14,7 +14,7 @@ export class Jumbotron extends React.Component {
 					<b>Where gamers compete for bragging rights and cash.</b>
 				</p>
 				<p className="lead">
-					<Link className="matchup" to="/playNow">
+					<Link className="matchup" to="/playnowfour">
 						<button
 							className="btn btn-outline-warning btn-lg"
 							href="/challenge"

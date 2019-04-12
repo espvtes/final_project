@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext.jsx";
+import { Link } from "react-router-dom";
 
 import "../../styles/index.css";
 
@@ -66,17 +67,19 @@ export class Login extends React.Component {
 							<Context.Consumer>
 								{({ store, actions }) => {
 									return (
-										<button
-											className="btn btn-lg btn-outline-warning btn-block"
-											type="submit"
-											onClick={() =>
-												actions.loginForm(
-													this.state.email,
-													this.state.password
-												)
-											}>
-											Sign in
-										</button>
+										<Link to="/profile">
+											<button
+												className="btn btn-lg btn-outline-warning btn-block"
+												type="submit"
+												onClick={() =>
+													actions.loginForm(
+														this.state.email,
+														this.state.password
+													)
+												}>
+												Sign in
+											</button>
+										</Link>
 									);
 								}}
 							</Context.Consumer>

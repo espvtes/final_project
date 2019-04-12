@@ -16,7 +16,7 @@ export class Table extends React.Component {
 					<br />
 					<table
 						id={this.props.id}
-						className="table text-center py-4 table-dark shadow rounded">
+						className="table text-center py-4 table-dark shadow rounded text-white">
 						<thead>
 							<tr>
 								<th scope="col">Player</th>
@@ -26,37 +26,9 @@ export class Table extends React.Component {
 							</tr>
 						</thead>
 						<tbody>
-							<tr id="row1">
-								<td>Player1</td>
-								<td>Mortal Kombat 11</td>
-								<td>$10</td>
-								<td>whenever</td>
-								<Link className="mortal" to="/score">
-									<button
-										role="button"
-										href="/score"
-										className="btn mt-2 btn btn-warning">
-										Accept Challenge
-									</button>
-								</Link>
-							</tr>
-							<tr id="row2">
-								<td>Player2</td>
-								<td>The Divion</td>
-								<td>$20</td>
-								<td>whenever</td>
-								<Link className="the division" to="/score">
-									<button
-										role="button"
-										href="/score"
-										className="btn  mt-2 btn btn-warning">
-										Accept Challenge
-									</button>
-								</Link>
-							</tr>
 							<tr id="row3">
 								<td>Player3</td>
-								<td>Call of Duty</td>
+								<td>Apex Legends</td>
 								<td>$35</td>
 								<td>whenever</td>
 								<Link className="call" to="/score">
@@ -70,7 +42,7 @@ export class Table extends React.Component {
 							</tr>
 							<tr id="row4">
 								<td>Player4</td>
-								<td>The Division</td>
+								<td>Fifa</td>
 								<td>$300</td>
 								<td>whenever</td>
 								<Link className="the" to="/score">
@@ -84,7 +56,7 @@ export class Table extends React.Component {
 							</tr>
 							<tr id="row5">
 								<td>Player5</td>
-								<td>Call of Duty</td>
+								<td>Fortnite</td>
 								<td>$125</td>
 								<td>whenever</td>
 								<Link className="call" to="/score">

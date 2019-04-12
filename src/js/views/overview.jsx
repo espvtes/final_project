@@ -25,12 +25,6 @@ export class Overview extends React.Component {
 									and Google Wallet
 								</li>
 							</p>
-							<a
-								href="/sign_up"
-								className="btn btn-dark"
-								id="step1">
-								Sign Up
-							</a>
 						</div>
 					</div>
 					<div className="col-4 ml-4 mt-4">
@@ -48,14 +42,6 @@ export class Overview extends React.Component {
 								<li>Find or wait for an opponent</li>
 								<li>Play</li>
 							</p>
-							<Link className="step2" to="/matchCreate">
-								<button
-									href="/match"
-									className="btn btn-dark mt-1"
-									id="step2">
-									Choose your game
-								</button>
-							</Link>
 						</div>
 					</div>
 					<div className="col-3 mr-2 mt-4" id="third">
@@ -72,12 +58,6 @@ export class Overview extends React.Component {
 								<li>Go to your profile</li>
 								<li>Cash out your winnings</li>
 							</p>
-							<a
-								href="/profile"
-								className="btn btn-dark mt-4"
-								id="step3">
-								Cash out
-							</a>
 						</div>
 					</div>
 				</div>

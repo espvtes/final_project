@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export class PlayNow extends React.Component {
+export class PlayNowTwo extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid py-4">
@@ -11,7 +11,7 @@ export class PlayNow extends React.Component {
 						className="col-6 shadow p-3 mb-6 rounded border border-secondary text-white"
 						id="play">
 						<div className="title">
-							<h4>Play Fifa now:</h4>
+							<h4>Play Fortnite now:</h4>
 						</div>
 						<table
 							className="table border border-secondary shadow p-3 mb-6 rounded text-white"
@@ -28,7 +28,7 @@ export class PlayNow extends React.Component {
 							<tbody>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$10</td>
 									<td>Whenever</td>
 									<td>
@@ -44,7 +44,7 @@ export class PlayNow extends React.Component {
 								</tr>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$50</td>
 									<td>Whenever</td>
 									<td>
@@ -59,7 +59,7 @@ export class PlayNow extends React.Component {
 								</tr>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$80</td>
 									<td>Whenever</td>
 									<td>
@@ -74,7 +74,7 @@ export class PlayNow extends React.Component {
 								</tr>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$40</td>
 									<td>Whenever</td>
 									<td>
@@ -89,7 +89,7 @@ export class PlayNow extends React.Component {
 								</tr>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$20</td>
 									<td>Whenever</td>
 									<td>
@@ -104,7 +104,7 @@ export class PlayNow extends React.Component {
 								</tr>
 								<tr>
 									<th scope="row">Player</th>
-									<td>Fifa</td>
+									<td>fortnite</td>
 									<td>$120</td>
 									<td>Whenever</td>
 									<td>

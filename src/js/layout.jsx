@@ -14,6 +14,9 @@ import { Matchcreate } from "./views/matchcreate.jsx";
 import { Joinmatch } from "./views/joinmatch.jsx";
 import { Score } from "./views/score.jsx";
 import { PlayNow } from "./views/playNow.jsx";
+import { PlayNowTwo } from "./views/playnowtwo.jsx";
+import { PlayNowThree } from "./views/playnowthree.jsx";
+import { PlayNowFour } from "./views/playnnowfour.jsx";
 
 import { Profile } from "./views/profile.jsx";
 
@@ -44,6 +47,9 @@ export class Layout extends React.Component {
 						<Route path="/joinmatch" component={Joinmatch} />
 						<Route path="/score" component={Score} />
 						<Route path="/playNow" component={PlayNow} />
+						<Route path="/playnowtwo" component={PlayNowTwo} />
+						<Route path="/playNowthree" component={PlayNowThree} />
+						<Route path="/playnowfour" component={PlayNowFour} />
 
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
